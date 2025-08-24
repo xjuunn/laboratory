@@ -1,0 +1,15 @@
+{
+  "name": "laboratory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dev": "pnpm --filter ./apps/* dev",
+    "start": "pnpm --filter ./apps/* start",
+    "build": "pnpm --filter ./apps/* build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0"
+}
