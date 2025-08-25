@@ -1,10 +1,11 @@
 import tailwindcss from '@tailwindcss/vite';
+import path from 'path';
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   ssr: false,
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
   },
   css: ['~/assets/app.css'],
   icon: {

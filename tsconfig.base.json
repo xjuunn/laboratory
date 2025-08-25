@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@laboratory/config": [
+                "packages/config/src"
+            ]
+        },
+        "declaration": true,
+        "declarationMap": true,
+        "outDir": "dist"
+    }
+}

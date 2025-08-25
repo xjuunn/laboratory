@@ -1,0 +1,17 @@
+{
+  "name": "@laboratory/config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0"
+}
