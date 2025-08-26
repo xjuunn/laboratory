@@ -8,11 +8,11 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "baseUrl": ".",
-        "paths": {
-            "@laboratory/config": [
-                "packages/config/src"
-            ]
-        },
+        // "paths": {
+        //     "@laboratory/config": [
+        //         "packages/config/src"
+        //     ]
+        // },
         "declaration": true,
         "declarationMap": true,
         "outDir": "dist"

@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      zod:
-        specifier: ^4.1.1
-        version: 4.1.1
+      '@laboratory/config':
+        specifier: workspace:*
+        version: link:packages/config
     devDependencies:
       tsup:
         specifier: ^8.5.0
@@ -6903,9 +6903,6 @@ packages:
 
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
-
-  zod@4.1.1:
-    resolution: {integrity: sha512-SgMZK/h8Tigt9nnKkfJMvB/mKjiJXaX26xegP4sa+0wHIFVFWVlsQGdhklDmuargBD3Hsi3rsQRIzwJIhTPJHA==}
 
 snapshots:
 
@@ -14324,5 +14321,3 @@ snapshots:
       readable-stream: 4.7.0
 
   zod@3.25.76: {}
-
-  zod@4.1.1: {}
