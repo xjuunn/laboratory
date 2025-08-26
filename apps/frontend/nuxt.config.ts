@@ -1,5 +1,5 @@
 import tailwindcss from '@tailwindcss/vite';
-import path from 'path';
+import { config } from '@laboratory/config';
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -16,6 +16,14 @@ export default defineNuxtConfig({
     clientBundle: {
       scan: true,
       includeCustomCollections: true
+    }
+  },
+  devServer: {
+    port: Number(config.frontend_port ?? 3000)
+  },
+  runtimeConfig: {
+    public: {
+      frontend_port: String(config.frontend_port ?? 3000),
     }
   },
   modules: [
